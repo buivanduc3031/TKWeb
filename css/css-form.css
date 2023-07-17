@@ -1,0 +1,61 @@
+* {
+    /* background-color: bisque; */
+    margin: 0;
+}
+
+/* Banner */
+section.banner {
+    display: flex;
+    background: linear-gradient(blue, lightblue, darkblue);
+    margin: 0;
+}
+section.banner > h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 3px 2px bisque;
+    position: relative;
+    left: 15%;
+    animation: doimau 0.5s infinite;
+}
+
+@keyframes doimau {
+    from {
+        color: white;
+    }
+    to {
+        color: yellow;
+    }
+}
+/* FORM */
+.form {
+    height: 80%;
+    width: 40%;
+    margin: 100px auto;
+    padding: 30px;
+    color: white;
+    background: linear-gradient(blue, white, lightblue);
+}
+section.form h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+div.button {
+    display: flex;
+    justify-content: right;
+}
+
+
+/* Footer */
+section.footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background: linear-gradient(blue, lightblue, darkblue);
+    background-position: center right;
+    background-color: #0a6fa3;
+    padding: 15px;
+}
+.abc {
+    height: 1000px;
+}
